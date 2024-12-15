@@ -4,129 +4,243 @@
   <img src="https://avatars.githubusercontent.com/u/31736571?s=200&v=4" alt="Logo Dataset">
 </p>
 
-## Pendahuluan
-Proyek ini mengeksplorasi dan menganalisis dataset Hotel Bookings, yang berisi informasi mendetail tentang reservasi, demografi pelanggan, dan perilaku pemesanan untuk dua jenis hotel: Resort Hotel dan City Hotel.
+## 🏨 **Pendahuluan**
+Proyek ini mengeksplorasi dan menganalisis **dataset Hotel Bookings**, yang berisi informasi mendetail tentang:
+- **Reservasi**
+- **Demografi pelanggan**
+- **Perilaku pemesanan**
 
-### Pernyataan Masalah
-Memahami pola dalam pemesanan hotel sangat penting untuk mengoptimalkan operasi, memaksimalkan pendapatan, dan meningkatkan kepuasan pelanggan. Analisis ini bertujuan untuk mengungkap:
-- Tren utama dalam pemesanan dan pembatalan.
-- Wawasan tentang perilaku pelanggan (misalnya, lead time, frekuensi pemesanan).
-- Hubungan antara karakteristik pemesanan dan pendapatan.
-
-### Pendekatan
-Dengan menggunakan Python dan berbagai pustaka analisis data, proyek ini:
-- Memproses dan membersihkan dataset untuk memastikan akurasi.
-- Melakukan analisis data eksplorasi (EDA) untuk menemukan tren dan pola.
-- Merangkum temuan untuk membantu para pemangku kepentingan dalam pengambilan keputusan.
-
-Analisis ini bermanfaat bagi manajer hotel dengan memberikan wawasan yang dapat ditindaklanjuti untuk strategi penetapan harga, pengelolaan inventaris, dan pemasaran yang ditargetkan.
+Dataset mencakup dua jenis hotel:  
+🏖️ **Resort Hotel**  
+🏙️ **City Hotel**
 
 ---
 
-## Paket yang Diperlukan
-Proyek ini menggunakan pustaka Python berikut:
+## ❓ **Pernyataan Masalah**
+Memahami pola dalam pemesanan hotel sangat penting untuk:
+- 📈 **Mengoptimalkan operasi**  
+- 💰 **Memaksimalkan pendapatan**  
+- 😊 **Meningkatkan kepuasan pelanggan**
 
-- `gdown`
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
+### **Tujuan Analisis**:
+1. 🔍 Mengungkap **tren utama** dalam pemesanan dan pembatalan.  
+2. 🧠 Memberikan **wawasan perilaku pelanggan** (misalnya, lead time, frekuensi pemesanan).  
+3. 🔗 Menganalisis **hubungan antara karakteristik pemesanan dan pendapatan**.
 
-Pastikan Anda telah menginstal pustaka-pustaka ini dengan menjalankan:
+---
+
+## 🛠️ **Pendekatan**
+### **Langkah-langkah Proyek**:
+1. 🧹 **Data Cleaning**:  
+   - Memproses dan membersihkan dataset untuk memastikan akurasi.  
+
+2. 📊 **Analisis Data Eksplorasi (EDA)**:  
+   - Menemukan tren dan pola dalam data.  
+
+3. 📝 **Merangkum Temuan**:  
+   - Memberikan wawasan yang dapat membantu pemangku kepentingan dalam pengambilan keputusan.
+
+---
+
+## 🎯 **Manfaat**
+Analisis ini memberikan **wawasan strategis** bagi manajer hotel untuk:  
+- 💸 **Strategi penetapan harga**  
+- 📦 **Pengelolaan inventaris**  
+- 🎯 **Pemasaran yang lebih efektif**
+
+---
+
+
+# 🛠️ **Paket yang Diperlukan**
+
+Proyek ini menggunakan pustaka Python berikut:  
+- 📥 **`gdown`**: Untuk mengunduh dataset langsung dari Google Drive.  
+- 📊 **`pandas`**: Untuk manipulasi dan analisis data.  
+- 🔢 **`numpy`**: Untuk operasi numerik.  
+- 📉 **`matplotlib`**: Untuk visualisasi data dasar.  
+- 🎨 **`seaborn`**: Untuk visualisasi data yang lebih estetis.  
+- 🤖 **`scikit-learn`**: Untuk analisis dan pemodelan machine learning.
+
+---
+Pastikan Anda telah menginstal pustaka-pustaka di atas dengan menjalankan perintah berikut di terminal:  
 ```bash
 pip install -r requirements.txt
-```
+---
+
+
+# 📂 **Persiapan Data**
 
 ---
 
-## Persiapan Data
-
-### Sumber Dataset
+## 🌍 **Sumber Dataset**
 - **Sumber**: [Repositori GitHub rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
 - **Unduhan Langsung**: [Hotel Booking Dataset](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1)
 
-### Gambaran Dataset
-Dataset ini berisi:
-- **Tujuan Awal**: Dataset terbuka untuk mengeksplorasi perilaku pemesanan hotel.
-- **Variabel Utama**:
-  - `hotel`: Jenis hotel (Resort/City)
-  - `arrival_date`: Tanggal kedatangan
-  - `is_canceled`: Indikasi apakah reservasi dibatalkan
-  - `lead_time`: Hari antara pemesanan dan kedatangan
-  - `adr`: Tarif harian rata-rata (pendapatan per hari)
+---
 
-### Langkah Pembersihan
-- Penanganan nilai yang hilang.
-- Standarisasi format tanggal.
-- Penghapusan entri duplikat.
+## 📊 **Gambaran Dataset**
+Dataset ini berisi informasi tentang pemesanan hotel dan berfokus pada perilaku pelanggan:
 
-Ringkasan variabel data yang telah dibersihkan tersedia dalam file `.ipynb`.
+- **Tujuan Awal**:  
+  Dataset ini terbuka untuk mengeksplorasi perilaku pemesanan hotel.
+
+### **Variabel Utama**:
+1. 🏨 **`hotel`**: Jenis hotel (Resort/City)
+2. 📅 **`arrival_date`**: Tanggal kedatangan pelanggan
+3. ❌ **`is_canceled`**: Indikasi apakah reservasi dibatalkan
+4. ⏳ **`lead_time`**: Jumlah hari antara pemesanan dan kedatangan
+5. 💸 **`adr`**: Tarif harian rata-rata (pendapatan)
 
 ---
 
-## Analisis Data Eksplorasi (EDA)
-
-### Temuan Utama
-1. **Tren Pemesanan**:
-   - Puncak pemesanan pada Mei 2017 dan Oktober 2016.
-   - Tren mingguan menunjukkan lonjakan reservasi di pertengahan tahun.
-
-2. **Pembatalan**:
-   - Tingkat pembatalan tinggi selama minggu-minggu puncak.
-   - Waktu tunggu (lead time) berkorelasi positif dengan pembatalan (0.29).
-
-3. **Analisis Pendapatan**:
-   - Pendapatan rata-rata per pemesanan: $101.83.
-   - Pendapatan harian tertinggi tercatat selama musim panas dan untuk masa inap 6 hari.
-
-4. **Perilaku Pelanggan**:
-   - Tamu non-repetitif memiliki tingkat pembatalan lebih tinggi (37.8%).
-   - Sebagian besar pemesanan tanpa deposit.
-
-Plot dan tabel yang memvisualisasikan wawasan ini disertakan dalam file `.ipynb`.
+## 🧹 **Langkah Pembersihan Data**
+Untuk memastikan kualitas data, langkah-langkah berikut dilakukan:
+- 🔄 **Penanganan Nilai yang Hilang**: Mengganti atau menghapus nilai yang hilang.
+- 📅 **Standarisasi Format Tanggal**: Menyelaraskan format tanggal agar konsisten.
+- 🚫 **Penghapusan Entri Duplikat**: Menghapus data yang terduplikasi untuk menghindari bias.
 
 ---
 
-## Sistem Prediksi Pembatalan
-Sebagai bagian tambahan dari proyek ini, kami juga membuat sebuah sistem prediksi pembatalan sederhana. Sistem ini terinspirasi dari pola pembatalan yang ditemukan selama analisis.
-
-### Alur Program
-1. **Persiapan Data**
-   - Program menggunakan variabel `lead_time`, `total_of_special_requests`, `total_stays`, `previous_cancellations`, dan `deposit_type` sebagai fitur.
-   - `is_canceled` digunakan sebagai target prediksi.
-   - Data dibagi menjadi data latih dan data uji menggunakan `train_test_split`.
-
-2. **Pelatihan Model**
-   - Model Machine Learning yang digunakan adalah `RandomForestClassifier`.
-   - Model dilatih menggunakan data latih (`X_train`, `y_train`).
-
-3. **Fungsi Prediksi**
-   - Fungsi `predict_cancellation` meminta input pengguna untuk fitur-fitur seperti:
-     - Lead time
-     - Total permintaan khusus
-     - Lama tinggal
-     - Jumlah pembatalan sebelumnya
-     - Tipe deposit
-   - Berdasarkan input tersebut, program memberikan prediksi apakah reservasi kemungkinan dibatalkan atau tidak beserta probabilitasnya.
+## 📑 **Ringkasan Variabel Data**
+Ringkasan tentang variabel data yang telah dibersihkan dapat ditemukan dalam file `.ipynb`.
 
 ---
 
-## Rangkuman
+<div align="center">
+  🔍 **Pembersihan data yang tepat sangat penting untuk hasil analisis yang akurat!** 🔍
+</div>
 
-### Ringkasan Utama
-- **Wawasan**:
-  - Tren pemesanan dan pendapatan sesuai dengan permintaan musiman.
-  - Waktu tunggu dan deposit non-refundable memiliki pengaruh signifikan terhadap pembatalan.
-- **Rekomendasi**:
-  - Fokus pada pemasaran untuk tamu repetitif.
-  - Tawarkan opsi pemesanan yang fleksibel untuk mengurangi pembatalan.
+---
 
-### Keterbatasan
-- Ruang lingkup dataset terbatas pada dua jenis hotel.
-- Faktor eksternal (misalnya, ekonomi, cuaca) tidak dipertimbangkan.
+# 🔍 **Insight Analisis**
 
-Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan model prediksi yang lebih canggih.
+---
+
+## 🚨 **Temuan Utama**
+
+### 1. 📅 **Tren Pemesanan**:
+   - 📈 **Puncak Pemesanan**:  
+     Puncak pemesanan terjadi pada **Mei 2017** dan **Oktober 2016**.
+   - 🔄 **Tren Mingguan**:  
+     Lonjakan reservasi terlihat di **pertengahan tahun**.
+
+### 2. ❌ **Pembatalan**:
+   - 📊 **Tingkat Pembatalan**:  
+     Tingkat pembatalan tinggi terutama pada **minggu-minggu puncak**.
+   - 🔗 **Korelasi Pembatalan dan Lead Time**:  
+     Lead time memiliki korelasi positif dengan pembatalan sebesar **0.29**.
+
+### 3. 💰 **Analisis Pendapatan**:
+   - 💵 **Pendapatan Rata-Rata per Pemesanan**:  
+     Pendapatan rata-rata per pemesanan adalah **$101.83**.
+   - 🌞 **Pendapatan Tertinggi**:  
+     Pendapatan tertinggi tercatat pada **musim panas** dan untuk **masa inap 6 hari**.
+
+### 4. 👥 **Perilaku Pelanggan**:
+   - 🚫 **Tamu Non-Repetitif**:  
+     Tamu yang tidak melakukan pemesanan berulang memiliki tingkat pembatalan lebih tinggi, yaitu **37.8%**.
+   - 💳 **Pemesanan Tanpa Deposit**:  
+     Sebagian besar pemesanan tidak menggunakan **deposit**.
+
+---
+
+## 📊 **Visualisasi**
+Plot dan tabel yang memvisualisasikan wawasan ini dapat ditemukan dalam file `.ipynb`.
+
+---
+
+<div align="center">
+  🎨 **Data yang eksploratif memberikan wawasan berharga untuk strategi bisnis!** 🎨
+</div>
+
+---
+
+# 🔮 **Sistem Prediksi Pembatalan**
+
+Sebagai bagian tambahan dari proyek ini, kami mengembangkan sebuah sistem prediksi pembatalan sederhana. Sistem ini terinspirasi dari pola pembatalan yang ditemukan selama analisis.
+
+---
+
+## 🔄 **Alur Program**
+
+### 1. **📊 Persiapan Data**
+   - Program ini menggunakan fitur-fitur berikut sebagai input:
+     - **`lead_time`**: Waktu antara pemesanan dan kedatangan.
+     - **`total_of_special_requests`**: Jumlah permintaan khusus yang diajukan oleh tamu.
+     - **`total_stays`**: Jumlah total masa inap.
+     - **`previous_cancellations`**: Jumlah pembatalan sebelumnya oleh tamu yang sama.
+     - **`deposit_type`**: Jenis deposit yang digunakan (misalnya, deposit yang dikembalikan atau tidak).
+   - **Target Prediksi**:  
+     - **`is_canceled`**: Indikator apakah pemesanan dibatalkan (ya/tidak).
+   - **Pembagian Data**:  
+     Data dibagi menjadi data latih dan data uji menggunakan `train_test_split`.
+
+---
+
+### 2. **🤖 Pelatihan Model**
+   - **Model yang Digunakan**:  
+     Model **`RandomForestClassifier`** dipilih untuk tugas prediksi pembatalan.
+   - **Proses Pelatihan**:  
+     Model dilatih menggunakan data latih (**`X_train`, `y_train`**).
+
+---
+
+### 3. **🔮 Fungsi Prediksi**
+   - Fungsi **`predict_cancellation`** meminta input pengguna untuk beberapa fitur utama:
+     - **Lead time**  
+     - **Total permintaan khusus**  
+     - **Lama tinggal**  
+     - **Jumlah pembatalan sebelumnya**  
+     - **Tipe deposit**
+   - Berdasarkan input tersebut, program akan memberikan **prediksi** apakah reservasi akan dibatalkan atau tidak, beserta **probabilitas** pembatalan.
+
+---
+
+## ⚙️ **Cara Kerja Sistem**
+Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan pemesanan dan merencanakan langkah-langkah preventif untuk mengurangi dampaknya.
+
+---
+
+<div align="center">
+  🎯 **Sistem prediksi pembatalan dapat membantu pengelolaan reservasi yang lebih baik!** 🎯
+</div>
+
+---
+
+# 📚 **Rangkuman**
+
+---
+
+## 🔑 **Ringkasan Utama**
+### **Wawasan:**
+- 📅 **Tren Pemesanan dan Pendapatan**:  
+  Pemesanan dan pendapatan menunjukkan **pola musiman** yang jelas.
+- ⏳ **Waktu Tunggu & Deposit Non-Refundable**:  
+  Waktu tunggu yang lebih lama dan deposit non-refundable memiliki **pengaruh signifikan** terhadap tingkat pembatalan.
+
+### **Rekomendasi:**
+- 🎯 **Fokus pada Pemasaran untuk Tamu Repetitif**:  
+  Menargetkan tamu yang sering memesan dapat **meningkatkan pendapatan** dan **mengurangi pembatalan**.
+- 💡 **Tawarkan Opsi Pemesanan Fleksibel**:  
+  Menyediakan opsi pemesanan yang lebih fleksibel dapat mengurangi tingkat pembatalan, memberikan **kenyamanan** kepada tamu.
+
+---
+
+## ⚠️ **Keterbatasan**
+- 🔍 **Ruang Lingkup Dataset**:  
+  Dataset hanya mencakup dua jenis hotel, yaitu **Resort Hotel** dan **City Hotel**.
+- 🌍 **Faktor Eksternal**:  
+  Faktor eksternal seperti kondisi **ekonomi** dan **cuaca** tidak dipertimbangkan dalam analisis ini.
+
+### 🔮 **Pekerjaan di Masa Depan:**
+- 💼 Integrasi dengan **dataset eksternal** (misalnya, data cuaca atau ekonomi) untuk analisis yang lebih komprehensif.
+- 🤖 Penerapan **model prediksi yang lebih canggih** untuk meningkatkan akurasi prediksi pembatalan.
+
+---
+
+<div align="center">
+  🏨 **Dengan pemahaman yang lebih baik, hotel dapat mengoptimalkan strategi pemesanan dan pendapatan!** 🏨
+</div>
 
 ---
 
@@ -157,7 +271,22 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 ---
 
-## Sumber Daya Tambahan
+# 📚 **Sumber Daya Tambahan**
 
-- Lihat [notebook](hotel_booking_analysis.ipynb) untuk analisis lengkap dan implementasi kode.
-- Untuk dependensi paket, lihat [requirements.txt](requirements.txt).
+---
+
+- 🔎 **Analisis Lengkap dan Implementasi Kode**:  
+  Lihat notebook lengkap untuk **analisis mendalam** dan **implementasi kode** yang digunakan dalam proyek ini.  
+  [📓 Hotel Booking Analysis](hotel_booking_analysis.ipynb)
+
+- 📦 **Dependensi Paket**:  
+  Untuk daftar lengkap paket dan dependensi yang diperlukan, buka file **requirements.txt** untuk memastikan lingkungan Anda terinstal dengan benar.  
+  [📄 requirements.txt](requirements.txt)
+
+---
+
+<div align="center">
+  📘 **Akses lebih lanjut untuk memahami detail analisis dan implementasi proyek!** 📘
+</div>
+
+---
