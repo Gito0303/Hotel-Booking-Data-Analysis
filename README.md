@@ -5,14 +5,23 @@
 </p>
 
 ## 🏨 **Pendahuluan**
-Proyek ini mengeksplorasi dan menganalisis **dataset Hotel Bookings**, yang berisi informasi mendetail tentang:
+Proyek ini mengeksplorasi dan menganalisis **dataset Hotel Bookings**, yang berisi informasi mendetail tentang :
 - **Reservasi**
 - **Demografi pelanggan**
 - **Perilaku pemesanan**
-
+  
 Dataset mencakup dua jenis hotel:  
 🏖️ **Resort Hotel**  
 🏙️ **City Hotel**
+
+Menurut Sumber, Data ini berasal dari kumpulan data permintaan pemesanan hotel terbuka yang disusun oleh Antonio, Almeida, dan Nunes (2019). Berikut kami sertakan Informasi terkait sumber Dataset.
+
+---
+
+## 🌍 **Sumber Dataset**
+- **Sumber**: [Repositori GitHub rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
+- **Unduhan Langsung**: [Hotel Booking Dataset](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1)
+
 
 ---
 
@@ -51,7 +60,7 @@ Analisis ini memberikan **wawasan strategis** bagi manajer hotel untuk:
 ---
 
 
-# 🛠️ **Paket yang Diperlukan**
+# **Paket yang Diperlukan**
 
 Proyek ini menggunakan pustaka Python berikut:  
 - 📥 **`gdown`**: Untuk mengunduh dataset langsung dari Google Drive.  
@@ -71,36 +80,56 @@ pip install -r requirements.txt
 ---
 
 
-# 📂 **Persiapan Data**
-
----
-
-## 🌍 **Sumber Dataset**
-- **Sumber**: [Repositori GitHub rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
-- **Unduhan Langsung**: [Hotel Booking Dataset](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1)
+# **Persiapan Data**
 
 ---
 
 ## 📊 **Gambaran Dataset**
-Dataset ini berisi informasi tentang pemesanan hotel dan berfokus pada perilaku pelanggan:
+Dataset ini berisi informasi tentang pemesanan hotel dan perilaku pelanggan.
 
 - **Tujuan Awal**:  
-  Dataset ini terbuka untuk mengeksplorasi perilaku pemesanan hotel.
+  Dataset ini digunakan untuk mengeksplorasi perilaku pemesanan hotel.
 
-### **Variabel Utama**:
-1. 🏨 **`hotel`**: Jenis hotel (Resort/City)
-2. 📅 **`arrival_date`**: Tanggal kedatangan pelanggan
-3. ❌ **`is_canceled`**: Indikasi apakah reservasi dibatalkan
-4. ⏳ **`lead_time`**: Jumlah hari antara pemesanan dan kedatangan
-5. 💸 **`adr`**: Tarif harian rata-rata (pendapatan)
+## **Variabel Utama**
+
+| **Nama Variabel**                       | **Keterangan Singkat**                                                      |
+|-----------------------------------------|------------------------------------------------------------------------------|
+| 🏨 **`hotel`**                          | Jenis hotel (Resort/City)                                                   |
+| 📅 **`arrival_date_year`**              | Tahun kedatangan pelanggan                                                   |
+| 🗓 **`arrival_date_month`**             | Bulan kedatangan pelanggan                                                   |
+| 📅 **`arrival_date_week_number`**       | Nomor minggu kedatangan pelanggan dalam tahun                                |
+| 📅 **`arrival_date_day_of_month`**     | Hari kedatangan pelanggan dalam bulan                                       |
+| ❌ **`is_canceled`**                    | Indikasi apakah reservasi dibatalkan (1: dibatalkan, 0: tidak dibatalkan)   |
+| ⏳ **`lead_time`**                      | Jumlah hari antara pemesanan dan kedatangan                                  |
+| 🛏 **`reserved_room_type`**             | Jenis kamar yang dipesan                                                     |
+| 🛏 **`assigned_room_type`**             | Jenis kamar yang diberikan                                                   |
+| 💰 **`deposit_type`**                   | Jenis deposit (No Deposit, Refundable, Non Refund)                          |
+| 🛎 **`total_of_special_requests`**      | Jumlah permintaan khusus dari tamu                                          |
+| 💸 **`adr`**                            | Average Daily Rate (pendapatan rata-rata per hari per reservasi)             |
+| 🌐 **`stays_in_weekend_nights`**        | Lama tinggal pada akhir pekan (dalam malam)                                  |
+| 🌐 **`stays_in_week_nights`**           | Lama tinggal pada hari kerja (dalam malam)                                   |
+| ❌ **`previous_cancellations`**         | Jumlah pembatalan sebelumnya                                                 |
+| ✅ **`previous_bookings_not_canceled`** | Jumlah reservasi sebelumnya yang tidak dibatalkan                           |
+| 🔁 **`is_repeated_guest`**              | Menandakan apakah tamu adalah tamu berulang (1: ya, 0: tidak)                |
+
+---
+
+## **Variabel Baru**
+
+| **Nama Variabel**          | **Keterangan Singkat**                                                     |
+|----------------------------|-----------------------------------------------------------------------------|
+| 📅 **`arrival_date`**       | Kombinasi tahun dan bulan kedatangan (`arrival_date_year` dan `arrival_date_month`) |
+| 🌸 **`season`**             | Musim kedatangan berdasarkan bulan (`arrival_date_month`)                  |
+| ✅ **`success_ratio`**      | Rasio keberhasilan reservasi berdasarkan data sebelumnya                    |
+| 🏨 **`total_stays`**        | Total lama tinggal, gabungan dari `stays_in_weekend_nights` dan `stays_in_week_nights` |
+| ⚠️ **`risk_score`**         | Skor risiko pembatalan berdasarkan `lead_time`, `deposit_type`, dan `season`|
 
 ---
 
 ## 🧹 **Langkah Pembersihan Data**
-Untuk memastikan kualitas data, langkah-langkah berikut dilakukan:
-- 🔄 **Penanganan Nilai yang Hilang**: Mengganti atau menghapus nilai yang hilang.
-- 📅 **Standarisasi Format Tanggal**: Menyelaraskan format tanggal agar konsisten.
-- 🚫 **Penghapusan Entri Duplikat**: Menghapus data yang terduplikasi untuk menghindari bias.
+Pembersihan data dilakukan dengan langkah-langkah berikut untuk memastikan kualitas data:
+- 🔄 **Penanganan Nilai yang Hilang**: Mengganti atau menghapus nilai yang hilang agar data lebih lengkap dan akurat.
+- 🔄 **Mengubah Tipe Data Kolom**: Menyesuaikan tipe data pada kolom yang tidak sesuai, seperti mengubah kolom tanggal menjadi tipe `datetime`.
 
 ---
 
@@ -115,7 +144,7 @@ Ringkasan tentang variabel data yang telah dibersihkan dapat ditemukan dalam fil
 
 ---
 
-# 🔍 **Insight Analisis**
+# **Insight Analisis**
 
 ---
 
@@ -158,7 +187,7 @@ Plot dan tabel yang memvisualisasikan wawasan ini dapat ditemukan dalam file `.i
 
 ---
 
-# 🔮 **Sistem Prediksi Pembatalan**
+# **Sistem Prediksi Pembatalan**
 
 Sebagai bagian tambahan dari proyek ini, kami mengembangkan sebuah sistem prediksi pembatalan sederhana. Sistem ini terinspirasi dari pola pembatalan yang ditemukan selama analisis.
 
@@ -210,7 +239,7 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
 
 ---
 
-# 📚 **Rangkuman**
+# **Rangkuman**
 
 ---
 
@@ -274,13 +303,13 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
 
 ---
 
-# 📚 **Sumber Daya Tambahan**
+# **Sumber Daya Tambahan**
 
 ---
 
 - 🔎 **Analisis Lengkap dan Implementasi Kode**:  
   Lihat notebook lengkap untuk **analisis mendalam** dan **implementasi kode** yang digunakan dalam proyek ini.  
-  [📓 Hotel Booking Analysis](hotel_booking_analysis.ipynb)
+  [📓 Hotel Booking Analysis](Hotel_Bookings_Analysis.ipynb)
 
 - 📦 **Dependensi Paket**:  
   Untuk daftar lengkap paket dan dependensi yang diperlukan, buka file **requirements.txt** untuk memastikan lingkungan Anda terinstal dengan benar.  
