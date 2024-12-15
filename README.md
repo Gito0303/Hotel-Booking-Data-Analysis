@@ -131,7 +131,7 @@ Dataset ini berisi informasi tentang pemesanan hotel dan perilaku pelanggan.
 
 ## 🧹 **Langkah Pembersihan Data**
 Pembersihan data dilakukan dengan langkah-langkah berikut untuk memastikan kualitas data:
-- 🔄 **Penanganan Nilai yang Hilang**: Mengganti atau menghapus nilai yang hilang agar data lebih lengkap dan akurat.
+- 🔄 **Penanganan Nilai yang Hilang**: Mengganti nilai yang hilang agar data lebih lengkap dan akurat.
 - 🔄 **Mengubah Tipe Data Kolom**: Menyesuaikan tipe data pada kolom yang tidak sesuai, seperti mengubah kolom tanggal menjadi tipe `datetime`.
 
 ---
