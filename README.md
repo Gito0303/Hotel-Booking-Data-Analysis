@@ -134,10 +134,10 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 ![Logo Universitas](https://id.wikipedia.org/wiki/Berkas:UMM_LOGO.svg)
 
-**Ketua Tim**: Fathul Agit Darmawan, 202110370311169, Teknik Informatika, Universitas Muhammadiyah Malang  
-**Anggota**:  
-- M. Bima Mauludin, 202110370311193, Teknik Informatika, Universitas Muhammadiyah Malang  
-- Galvan Adam Maliki, 202110370311188, Teknik Informatika, Universitas Muhammadiyah Malang  
+**Ketua Tim** : Fathul Agit Darmawan (202110370311169), Teknik Informatika, Universitas Muhammadiyah Malang  
+**Anggota** :  
+- M. Bima Mauludin (202110370311193), Teknik Informatika, Universitas Muhammadiyah Malang  
+- Galvan Adam Maliki (202110370311188), Teknik Informatika, Universitas Muhammadiyah Malang  
 
 ---
 
