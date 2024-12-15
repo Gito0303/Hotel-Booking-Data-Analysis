@@ -1,6 +1,8 @@
 # Analisis Data Pemesanan Hotel
 
-![Logo Dataset](https://avatars.githubusercontent.com/u/31736571?s=200&v=4)
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/31736571?s=200&v=4" alt="Logo Dataset">
+</p>
 
 ## Pendahuluan
 Proyek ini mengeksplorasi dan menganalisis dataset Hotel Bookings, yang berisi informasi mendetail tentang reservasi, demografi pelanggan, dan perilaku pemesanan untuk dua jenis hotel: Resort Hotel dan City Hotel.
