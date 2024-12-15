@@ -60,7 +60,7 @@ Analisis ini memberikan **wawasan strategis** bagi manajer hotel untuk:
 ---
 
 
-# **Paket yang Diperlukan**
+<center># **Paket yang Diperlukan**</center>
 
 Proyek ini menggunakan pustaka Python berikut:  
 - 📥 **`gdown`**: Untuk mengunduh dataset langsung dari Google Drive.  
