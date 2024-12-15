@@ -1,4 +1,8 @@
-<center># Analisis Data Pemesanan Hotel</center>
+***
+
+<h1 align="center">Analisis Data Pemesanan Hotel</h1>
+
+---
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/31736571?s=200&v=4" alt="Logo Dataset">
@@ -22,7 +26,6 @@ Menurut Sumber, Data ini berasal dari kumpulan data permintaan pemesanan hotel t
 - **Sumber**: [Repositori GitHub rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
 - **Unduhan Langsung**: [Hotel Booking Dataset](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1)
 
-
 ---
 
 ## ❓ **Pernyataan Masalah**
@@ -43,7 +46,7 @@ Memahami pola dalam pemesanan hotel sangat penting untuk:
 1. 🧹 **Data Cleaning**:  
    - Memproses dan membersihkan dataset untuk memastikan akurasi.  
 
-2. 📊 **Analisis Data Eksplorasi (EDA)**:  
+2. 📊 **Analisis Data**:  
    - Menemukan tren dan pola dalam data.  
 
 3. 📝 **Merangkum Temuan**:  
@@ -57,7 +60,7 @@ Analisis ini memberikan **wawasan strategis** bagi manajer hotel untuk:
 - 📦 **Pengelolaan inventaris**  
 - 🎯 **Pemasaran yang lebih efektif**
 
----
+***
 
 <h1 align="center">Paket yang Diperlukan</h1>
 
@@ -76,10 +79,9 @@ Pastikan Anda telah menginstal pustaka-pustaka di atas dengan menjalankan perint
 pip install -r requirements.txt
 ```
 
----
+***
 
-
-# **Persiapan Data**
+<h1 align="center">Persiapan Data</h1>
 
 ---
 
@@ -88,6 +90,8 @@ Dataset ini berisi informasi tentang pemesanan hotel dan perilaku pelanggan.
 
 - **Tujuan Awal**:  
   Dataset ini digunakan untuk mengeksplorasi perilaku pemesanan hotel.
+
+---
 
 ## **Variabel Utama**
 
@@ -141,9 +145,9 @@ Ringkasan tentang variabel data yang telah dibersihkan dapat ditemukan dalam fil
   🔍 **Pembersihan data yang tepat sangat penting untuk hasil analisis yang akurat!** 🔍
 </div>
 
----
+***
 
-# **Insight Analisis**
+<h1 align="center">Insight Analisis</h1>
 
 ---
 
@@ -184,9 +188,11 @@ Plot dan tabel yang memvisualisasikan wawasan ini dapat ditemukan dalam file `.i
   🎨 **Data yang eksploratif memberikan wawasan berharga untuk strategi bisnis!** 🎨
 </div>
 
----
+***
 
-# **Sistem Prediksi Pembatalan**
+<h1 align="center">Sistem Prediksi Pembatalan Sederhana</h1>
+
+---
 
 Sebagai bagian tambahan dari proyek ini, kami mengembangkan sebuah sistem prediksi pembatalan sederhana. Sistem ini terinspirasi dari pola pembatalan yang ditemukan selama analisis.
 
@@ -236,9 +242,9 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
   🎯 **Sistem prediksi pembatalan dapat membantu pengelolaan reservasi yang lebih baik!** 🎯
 </div>
 
----
+***
 
-# **Rangkuman**
+<h1 align="center">Rangkuman</h1>
 
 ---
 
@@ -281,6 +287,8 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
   <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/UMM_LOGO.png" alt="Logo Universitas Muhammadiyah Malang" width="200">
 </div>
 
+---
+
 ### **Ketua Tim**
 👤 **Fathul Agit Darmawan**  
 📘 **NIM**: 202110370311169  
@@ -295,14 +303,17 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
    🎓 **Program Studi**: Teknik Informatika  
    🏛️ **Universitas Muhammadiyah Malang**
 
+---
+
+### **Anggota Tim**
 2. 👤 **Galvan Adam Maliki**  
    📘 **NIM**: 202110370311188  
    🎓 **Program Studi**: Teknik Informatika  
    🏛️ **Universitas Muhammadiyah Malang** 
 
----
+***
 
-# **Sumber Daya Tambahan**
+<h1 align="center">Sumber Daya Tambahan</h1>
 
 ---
 
