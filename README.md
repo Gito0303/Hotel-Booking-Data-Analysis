@@ -15,7 +15,7 @@
 
 ---
 
-1. [Judul](Analisis-Data-Pemesanan-Hotel)
+1. [Judul](https://github.com/Gito0303/Hotel-Booking-Data-Analysis/tree/main?tab=readme-ov-file#logo-sumber-data)
 2. [Sumber Dataset](#sumber-dataset)
 3. [Pernyataan Masalah](#pernyataan-masalah)
 4. [Pendekatan](#pendekatan)
