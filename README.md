@@ -9,6 +9,20 @@
   <h2 align="center">(Logo Sumber Data)</h2>
 </p>
 
+***
+
+# <h1 align="center">Table of Content</h1>
+
+---
+
+1. [Judul](# <h1 align="center">Analisis Data Pemesanan Hotel</h1>)
+2. [Sumber Dataset](#sumber-dataset)
+3. [Pernyataan Masalah](#pernyataan-masalah)
+4. [Pendekatan](#pendekatan)
+    - [Langkah-langkah Proyek](#langkah-langkah-proyek)
+
+---
+
 ## 🏨 **Pendahuluan**
 Proyek ini mengeksplorasi dan menganalisis **dataset Hotel Bookings**, yang berisi informasi mendetail tentang :
 - **Reservasi**
