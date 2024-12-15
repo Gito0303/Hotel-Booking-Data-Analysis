@@ -45,7 +45,7 @@ Memahami pola dalam pemesanan hotel sangat penting untuk:
 ## 🛠️ **Pendekatan**
 ### **Langkah-langkah Proyek**:
 1. 🧹 **Data Cleaning**:  
-   - Memproses dan membersihkan dataset untuk memastikan akurasi.  
+   - Memproses dan membersihkan dataset.  
 
 2. 📊 **Analisis Data**:  
    - Menemukan tren dan pola dalam data.  
