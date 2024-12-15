@@ -132,14 +132,29 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 ## Anggota Tim
 
-<p align="center">
-  <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/UMM_LOGO.png" alt="Logo Universitas Muhammadiyah Malang">
-</p>
+<div align="center">
+  <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/UMM_LOGO.png" alt="Logo Universitas Muhammadiyah Malang" width="200">
+  <h1>Anggota Tim</h1>
+</div>
 
-**Ketua Tim** : Fathul Agit Darmawan (202110370311169), Teknik Informatika, Universitas Muhammadiyah Malang  
-**Anggota** :  
-- M. Bima Mauludin (202110370311193), Teknik Informatika, Universitas Muhammadiyah Malang  
-- Galvan Adam Maliki (202110370311188), Teknik Informatika, Universitas Muhammadiyah Malang  
+### **Ketua Tim**
+👤 **Fathul Agit Darmawan**  
+📘 **NIM**: 202110370311169  
+🎓 **Program Studi**: Teknik Informatika  
+🏛️ **Universitas Muhammadiyah Malang**
+
+---
+
+### **Anggota Tim**
+1. 👤 **M. Bima Mauludin**  
+   📘 **NIM**: 202110370311193  
+   🎓 **Program Studi**: Teknik Informatika  
+   🏛️ **Universitas Muhammadiyah Malang**
+
+2. 👤 **Galvan Adam Maliki**  
+   📘 **NIM**: 202110370311188  
+   🎓 **Program Studi**: Teknik Informatika  
+   🏛️ **Universitas Muhammadiyah Malang** 
 
 ---
 
