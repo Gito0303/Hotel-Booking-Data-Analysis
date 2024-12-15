@@ -62,9 +62,12 @@ Proyek ini menggunakan pustaka Python berikut:
 - 🤖 **`scikit-learn`**: Untuk analisis dan pemodelan machine learning.
 
 ---
+
 Pastikan Anda telah menginstal pustaka-pustaka di atas dengan menjalankan perintah berikut di terminal:  
 ```bash
 pip install -r requirements.txt
+```
+
 ---
 
 
