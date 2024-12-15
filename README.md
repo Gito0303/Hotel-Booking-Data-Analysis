@@ -286,7 +286,6 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
 <div align="center">
   <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/LOGO_UMM_INFORMATIKA.png" alt="Logo Informatika & Universitas Muhammadiyah Malang" high="100" width="200">
 </div>
----
 
 ### **Ketua Tim**
 👤 **Fathul Agit Darmawan**  
