@@ -15,7 +15,7 @@
 
 ---
 
-1. [Judul](# <h1 align="center">Analisis Data Pemesanan Hotel</h1>)
+1. [Judul](Analisis-Data-Pemesanan-Hotel)
 2. [Sumber Dataset](#sumber-dataset)
 3. [Pernyataan Masalah](#pernyataan-masalah)
 4. [Pendekatan](#pendekatan)
