@@ -132,7 +132,7 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 ## Anggota Tim
 
-![Logo Universitas](https://id.wikipedia.org/wiki/Berkas:UMM_LOGO.svg)
+![Logo Universitas](https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/UMM_LOGO.png)
 
 **Ketua Tim** : Fathul Agit Darmawan (202110370311169), Teknik Informatika, Universitas Muhammadiyah Malang  
 **Anggota** :  
