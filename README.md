@@ -319,11 +319,11 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
 
 - 🔎 **Analisis Lengkap dan Implementasi Kode**:  
   Lihat notebook lengkap untuk **analisis mendalam** dan **implementasi kode** yang digunakan dalam proyek ini.  
-  [📓 Hotel Booking Analysis](Hotel_Bookings_Analysis.ipynb)
+  [📓 Hotel Booking Analysis](Hotel_Booking_Analysis.ipynb)
 
 - 📦 **Dependensi Paket**:  
   Untuk daftar lengkap paket dan dependensi yang diperlukan, buka file **requirements.txt** untuk memastikan lingkungan Anda terinstal dengan benar.  
-  [📄 requirements.txt](requirements.txt)
+  [📄 Requirement](requirements.txt)
 
 ---
 
