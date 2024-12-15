@@ -130,7 +130,7 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 ## Anggota Tim
 
-![Logo Universitas](https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FUniversitas_Muhammadiyah_Malang&psig=AOvVaw3JpXiQfiIR94KNH11w4V7J&ust=1734326012026000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDYyICCqYoDFQAAAAAdAAAAABAJ)
+![Logo Universitas]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FUniversitas_Muhammadiyah_Malang&psig=AOvVaw3JpXiQfiIR94KNH11w4V7J&ust=1734326012026000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDYyICCqYoDFQAAAAAdAAAAABAJ])
 
 **Ketua Tim**: Fathul Agit Darmawan, 202110370311169, Teknik Informatika, Universitas Muhammadiyah Malang  
 **Anggota**:  
