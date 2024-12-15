@@ -5,8 +5,7 @@
 ---
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/31736571?s=200&v=4" alt="Logo Dataset">
-  <h2 align="center">(Logo Sumber Data)</h2>
+  <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/559584698.jpg?k=fbf75d6c59888fe8d14eb99064b0af4ceea2258632178345751d8e2fa6e843c7&o=" alt="Logo Hotel Internet Agoda">
 </p>
 
 ***
