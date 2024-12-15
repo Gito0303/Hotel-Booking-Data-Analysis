@@ -93,11 +93,10 @@ Dataset ini berisi informasi tentang pemesanan hotel dan perilaku pelanggan.
 
 ---
 
-## **Variabel Utama**
+## **Variabel Utama yang Digunakan didalam Analisis ini**
 
 | **Nama Variabel**                       | **Keterangan Singkat**                                                      |
 |-----------------------------------------|------------------------------------------------------------------------------|
-| 🏨 **`hotel`**                          | Jenis hotel (Resort/City)                                                   |
 | 📅 **`arrival_date_year`**              | Tahun kedatangan pelanggan                                                   |
 | 🗓 **`arrival_date_month`**             | Bulan kedatangan pelanggan                                                   |
 | 📅 **`arrival_date_week_number`**       | Nomor minggu kedatangan pelanggan dalam tahun                                |
@@ -117,7 +116,7 @@ Dataset ini berisi informasi tentang pemesanan hotel dan perilaku pelanggan.
 
 ---
 
-## **Variabel Baru**
+## **Variabel Baru yang dihasilkan selama Proses Analisis**
 
 | **Nama Variabel**          | **Keterangan Singkat**                                                     |
 |----------------------------|-----------------------------------------------------------------------------|
