@@ -15,11 +15,27 @@
 
 ---
 
-1. [Judul](https://github.com/Gito0303/Hotel-Booking-Data-Analysis/tree/main?tab=readme-ov-file#logo-sumber-data)
-2. [Sumber Dataset](#sumber-dataset)
-3. [Pernyataan Masalah](#pernyataan-masalah)
-4. [Pendekatan](#pendekatan)
-    - [Langkah-langkah Proyek](#langkah-langkah-proyek)
+1. [Pendahuluan](#-pendahuluan)
+2. [Sumber Dataset](#-sumber-dataset)
+3. [Pernyataan Masalah](#-pernyataan-masalah)
+4. [Pendekatan](#%EF%B8%8F-pendekatan)
+5. [Manfaat](#-manfaat)
+6. [Paket Yang Diperlukan](#paket-yang-diperlukan)
+7. [Persiapan Data](#persiapan-data)
+    - [Gambaran Dataset](#-gambaran-dataset)
+    - [Permbersihan Data](#-langkah-pembersihan-data)
+    - [Variabel Data](#-ringkasan-variabel-data)
+8. [Insight Analisis](#insight-analisis)
+    - [Temuan Utama](#-temuan-utama)
+    - [Visualisasi](#-visualisasi)
+9. [Sistem Prediksi Pembatalan Sederhana](#sistem-prediksi-pembatalan-sederhana)
+    - [Alur Program](#-alur-program)
+    - [Cara Kerja Sistem](#%EF%B8%8F-cara-kerja-sistem)
+10. [Rangkuman](#rangkuman)
+    - [Ringkasan Utama](#-ringkasan-utama)
+    - [Keterbatasan](#%EF%B8%8F-keterbatasan)
+11. [Teams](#anggota-tim)
+12. [Sumber Daya Tambahan](#sumber-daya-tambahan)
 
 ---
 
