@@ -134,7 +134,6 @@ Pekerjaan di masa depan dapat mencakup integrasi dataset eksternal dan penerapan
 
 <div align="center">
   <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/UMM_LOGO.png" alt="Logo Universitas Muhammadiyah Malang" width="200">
-  <h1>Anggota Tim</h1>
 </div>
 
 ### **Ketua Tim**
