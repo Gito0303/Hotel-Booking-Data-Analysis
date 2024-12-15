@@ -44,16 +44,22 @@ Proyek ini mengeksplorasi dan menganalisis **dataset Hotel Bookings**, yang beri
 - **Reservasi**
 - **Demografi pelanggan**
 - **Perilaku pemesanan**
-  
-Dataset mencakup dua jenis hotel:  
-🏖️ **Resort Hotel**  
-🏙️ **City Hotel**
 
-Menurut Sumber, Data ini berasal dari kumpulan data permintaan pemesanan hotel terbuka yang disusun oleh Antonio, Almeida, dan Nunes (2019). Berikut kami sertakan Informasi terkait sumber Dataset.
+---
+
+Lebih detailnya dalam proyek ini, kami akan menganalisis dataset yang berisi informasi tentang reservasi hotel, yang mencakup lebih dari 119.000 (tepatnya 119.390) entri reservasi hotel. Data ini meliputi berbagai atribut penting seperti status pembatalan, jenis kamar yang dipesan, preferensi pelanggan, serta perilaku pemesanan dan kedatangan. Melalui analisis mendalam, kami bertujuan untuk menggali pola-pola yang tersembunyi dalam data ini, dengan fokus pada identifikasi faktor-faktor yang mempengaruhi tingkat pembatalan, pendapatan hotel, serta tren musiman dalam pemesanan. Hasil dari analisis ini akan memberikan wawasan yang berharga bagi manajer hotel dalam merancang strategi pemasaran yang lebih efisien dan kebijakan yang dapat mengurangi tingkat pembatalan serta meningkatkan pendapatan hotel.
 
 ---
 
 ## 🌍 **Sumber Dataset**
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/31736571?s=200&v=4" alt="Logo Dataset">
+  <h2 align="center">(Logo Sumber Data)</h2>
+</p>
+
+Menurut Sumber, Data ini berasal dari kumpulan data permintaan pemesanan hotel terbuka yang disusun oleh Antonio, Almeida, dan Nunes (2019). Berikut kami sertakan Informasi terkait access sumber Dataset.
+
 - **Sumber**: [Repositori GitHub rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
 - **Unduhan Langsung**: [Hotel Booking Dataset](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1)
 
@@ -313,9 +319,9 @@ Sistem ini memungkinkan manajer hotel untuk memprediksi kemungkinan pembatalan p
 
 ## Anggota Tim
 
-<div align="center">
+<p align="center">
   <img src="https://github.com/Gito0303/Hotel-Booking-Data-Analysis/blob/main/LOGO_UMM_INFORMATIKA.png" alt="Logo Informatika & Universitas Muhammadiyah Malang" high="100" width="200">
-</div>
+</p>
 
 ### **Ketua Tim**
 👤 **Fathul Agit Darmawan**  
